@@ -1,0 +1,289 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20190819.155658.7964.0.001.json",
+    "dumpEventTime": "2019-08-19T15:56:58Z",
+    "dumpEventTimeStamp": "1566219418264",
+    "processId": 7964,
+    "cwd": "E:\\[FreeCourseSite.com] Udemy - React Node FullStack - Social Network from Scratch to Deploy\\2. Node JS API Development - First Steps\\nodeapi",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:/Users/Full Stack/AppData/Roaming/npm/node_modules/nodemon/bin/nodemon.js",
+      "app.js"
+    ],
+    "nodejsVersion": "v12.6.0",
+    "wordSize": 32,
+    "arch": "ia32",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.6.0",
+      "v8": "7.5.288.22-node.14",
+      "uv": "1.30.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.38.0",
+      "napi": "4",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1c",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v12.6.0/node-v12.6.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.6.0/node-v12.6.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.6.0/win-x86/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.17763",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "i686",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5-2467M CPU @ 1.60GHz",
+        "speed": 1596,
+        "user": 818578,
+        "nice": 0,
+        "sys": 978140,
+        "idle": 5288437,
+        "irq": 45593
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-2467M CPU @ 1.60GHz",
+        "speed": 1596,
+        "user": 818578,
+        "nice": 0,
+        "sys": 978140,
+        "idle": 5288437,
+        "irq": 45593
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-2467M CPU @ 1.60GHz",
+        "speed": 1596,
+        "user": 818578,
+        "nice": 0,
+        "sys": 978140,
+        "idle": 5288437,
+        "irq": 45593
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-2467M CPU @ 1.60GHz",
+        "speed": 1596,
+        "user": 818578,
+        "nice": 0,
+        "sys": 978140,
+        "idle": 5288437,
+        "irq": 45593
+      }
+    ],
+    "host": "DESKTOP-3153OBR"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+  ],
+  "javascriptHeap": {
+    "totalMemory": 680906752,
+    "totalCommittedMemory": 680906752,
+    "usedMemory": 548314596,
+    "availableMemory": 122030164,
+    "memoryLimit": 784334848,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261988,
+        "used": 21692,
+        "available": 240296
+      },
+      "new_space": {
+        "memorySize": 16777216,
+        "committedMemory": 16777216,
+        "capacity": 8383616,
+        "used": 371072,
+        "available": 8012544
+      },
+      "old_space": {
+        "memorySize": 635260928,
+        "committedMemory": 635260928,
+        "capacity": 520272652,
+        "used": 520142048,
+        "available": 130604
+      },
+      "code_space": {
+        "memorySize": 950272,
+        "committedMemory": 950272,
+        "capacity": 600640,
+        "used": 600640,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 528384,
+        "committedMemory": 528384,
+        "capacity": 162680,
+        "used": 162680,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 27078656,
+        "committedMemory": 27078656,
+        "capacity": 27014544,
+        "used": 27014544,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 1920,
+        "used": 1920,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 8383616,
+        "used": 0,
+        "available": 8383616
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 253.828,
+    "kernelCpuSeconds": 279.796,
+    "cpuConsumptionPercent": 141.545,
+    "maxRss": 1074569216,
+    "pageFaults": {
+      "IORequired": 611634,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 427,
+      "writes": 95
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=::": "::\\",
+    "=C:": "C:\\",
+    "ACLOCAL_PATH": "C:\\Program Files\\Git\\mingw32\\share\\aclocal;C:\\Program Files\\Git\\usr\\share\\aclocal",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\Full Stack\\AppData\\Roaming",
+    "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-3153OBR",
+    "COMSPEC": "C:\\WINDOWS\\system32\\cmd.exe",
+    "CONFIG_SITE": "C:/Program Files/Git/mingw32/etc/config.site",
+    "DEPOT_TOOLS_WIN_TOOLCHAIN": "0",
+    "DISPLAY": "needs-to-be-defined",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "EXEPATH": "C:\\Program Files\\Git",
+    "GOOGLE_API_KEY": "no",
+    "GOOGLE_DEFAULT_CLIENT_ID": "no",
+    "GOOGLE_DEFAULT_CLIENT_SECRET": "no",
+    "HOME": "C:\\Users\\Full Stack",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Full Stack",
+    "HOSTNAME": "DESKTOP-3153OBR",
+    "INFOPATH": "C:\\Program Files\\Git\\usr\\local\\info;C:\\Program Files\\Git\\usr\\share\\info;C:\\Program Files\\Git\\usr\\info;C:\\Program Files\\Git\\share\\info",
+    "JAVA_HOME": "C:\\Program Files\\Java\\jdk1.8.0_211",
+    "LANG": "en_GB.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\Full Stack\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-3153OBR",
+    "MANPATH": "C:\\Program Files\\Git\\mingw32\\local\\man;C:\\Program Files\\Git\\mingw32\\share\\man;C:\\Program Files\\Git\\usr\\local\\man;C:\\Program Files\\Git\\usr\\share\\man;C:\\Program Files\\Git\\usr\\man;C:\\Program Files\\Git\\share\\man",
+    "MINGW_CHOST": "i686-w64-mingw32",
+    "MINGW_PACKAGE_PREFIX": "mingw-w64-i686",
+    "MINGW_PREFIX": "C:/Program Files/Git/mingw32",
+    "MOZ_PLUGIN_PATH": "C:\\Program Files\\Foxit Software\\Foxit Reader\\plugins\\",
+    "MSYSTEM": "MINGW32",
+    "MSYSTEM_CARCH": "i686",
+    "MSYSTEM_CHOST": "i686-w64-mingw32",
+    "MSYSTEM_PREFIX": "C:/Program Files/Git/mingw32",
+    "NUMBER_OF_PROCESSORS": "4",
+    "ORIGINAL_PATH": "C:\\Program Files\\Git\\mingw32\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Full Stack\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\mingw32\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Microsoft VS Code\\bin;E:\\xampp\\php;C:\\Program Files\\Ampps\\php-7.1;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\MongoDB\\Server\\3.2\\bin;C:\\Program Files\\nodejs;C:\\Program Files\\PuTTY;C:\\Program Files\\Yarn\\bin;C:\\Program Files\\Windows Kits\\10\\Windows Performance Toolkit;C:\\Users\\Full Stack\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Full Stack\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Full Stack\\AppData\\Roaming\\npm;C:\\Users\\Full Stack\\AppData\\Local\\Yarn\\bin",
+    "ORIGINAL_TEMP": "C:/Users/FULLST~1/AppData/Local/Temp",
+    "ORIGINAL_TMP": "C:/Users/FULLST~1/AppData/Local/Temp",
+    "OS": "Windows_NT",
+    "OneDrive": "C:\\Users\\Full Stack\\OneDrive",
+    "PATH": "C:\\Users\\Full Stack\\bin;C:\\Program Files\\Git\\mingw32\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw32\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Full Stack\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\mingw32\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Microsoft VS Code\\bin;E:\\xampp\\php;C:\\Program Files\\Ampps\\php-7.1;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\MongoDB\\Server\\3.2\\bin;C:\\Program Files\\nodejs;C:\\Program Files\\PuTTY;C:\\Program Files\\Yarn\\bin;C:\\Program Files\\Windows Kits\\10\\Windows Performance Toolkit;C:\\Users\\Full Stack\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Full Stack\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Full Stack\\AppData\\Roaming\\npm;C:\\Users\\Full Stack\\AppData\\Local\\Yarn\\bin;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+    "PKG_CONFIG_PATH": "C:\\Program Files\\Git\\mingw32\\lib\\pkgconfig;C:\\Program Files\\Git\\mingw32\\share\\pkgconfig",
+    "PLINK_PROTOCOL": "ssh",
+    "PROCESSOR_ARCHITECTURE": "x86",
+    "PROCESSOR_IDENTIFIER": "x86 Family 6 Model 42 Stepping 7, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "2a07",
+    "PROGRAMFILES": "C:\\Program Files",
+    "PSModulePath": "C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\",
+    "PUBLIC": "C:\\Users\\Public",
+    "PWD": "/e/[FreeCourseSite.com] Udemy - React Node FullStack - Social Network from Scratch to Deploy/2. Node JS API Development - First Steps/nodeapi",
+    "ProgramData": "C:\\ProgramData",
+    "SESSIONNAME": "Console",
+    "SHELL": "C:\\Program Files\\Git\\usr\\bin\\bash.exe",
+    "SHLVL": "2",
+    "SSH_ASKPASS": "C:/Program Files/Git/mingw32/libexec/git-core/git-gui--askpass",
+    "SYSTEMDRIVE": "C:",
+    "SYSTEMROOT": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\FULLST~1\\AppData\\Local\\Temp",
+    "TERM": "xterm",
+    "TMP": "C:\\Users\\FULLST~1\\AppData\\Local\\Temp",
+    "TMPDIR": "C:\\Users\\FULLST~1\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-3153OBR",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-3153OBR",
+    "USERNAME": "Full Stack",
+    "USERPROFILE": "C:\\Users\\Full Stack",
+    "WINDIR": "C:\\WINDOWS",
+    "_": "C:/Program Files/nodejs/node"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMMBASE.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll"
+  ]
+}
